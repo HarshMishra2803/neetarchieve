@@ -2,9 +2,9 @@ import React from 'react'
 
 const page = () => {
   return (
-    <>
-    hi
-    </>
+    <div>
+      this is a request page
+    </div>
   )
 }
 
