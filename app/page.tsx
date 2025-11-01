@@ -9,19 +9,21 @@ const Page = () => {
   return (
     <>
     <div
-      className={`flex flex-col md:flex-row items-start justify-between mx-auto max-w-6xl px-6 py-10 min-h-[80vh] lg:pl-24 ${roboto.className}`}
+      className={`flex flex-col md:flex-row items-start justify-between mx-auto max-w-6xl px-6 py-10 min-h-[80vh] lg:pl-24 md:gap-8 md:pr-11 md:pt-8 md:min-h-0
+        md:mr-32
+         ${roboto.className}`}
     >
       {/* Left Sidebar */}
       <div className="text-[#B0B5B2] text-[14px] md:w-1/4 w-full md:text-left text-center md:mb-0 mb-8 pr-10">
-        <ul className="flex md:flex-col flex-col  justify-center md:justify-start gap-4 md:gap-5  pr-45 lg:pl-4  ">
-          <li className="cursor-pointer pr-2">Community</li>
+        <ul className="flex md:flex-col flex-col  justify-center md:justify-start gap-4 md:gap-7 md:pl-22  pr-45 lg:pl-4  ">
+          <li className="cursor-pointer pr-2 ">Community</li>
           <li className="cursor-pointer underline pr-7">Discord</li>
           <li className="cursor-pointer underline pr-5">Telegram</li>
         </ul>
       </div>
 
       {/* Right Content */}
-      <div className="text-[#F7F7F7] md:w-3/4 w-full flex flex-col gap-5 pt-12">
+      <div className="text-[#F7F7F7]  w-full flex flex-col gap-5 pt-12   ">
         <h1 className="text-[32px] lg:text-[44px] font-bold pb-6">NEET Archive</h1>
 
         <p className="text-[16px] sm:text-[17px] md:text-[18px] max-w-2xl font-medium leading-relaxed text-[#F7F7F7]  lg:text-[19px]    ">

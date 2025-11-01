@@ -13,8 +13,8 @@ const Navbar = () => {
 
       <nav
         className="
-          navbar flex justify-between items-center  container 
-             sm:px-8 md:px-14 lg:px-40 py-6
+          navbar flex justify-between items-center  container  
+             sm:px-13 md:px-1  lg:px-40 py-6  md:pl-18 
           lg:py-0
         "
       >
@@ -27,7 +27,7 @@ const Navbar = () => {
             height={400}
             className="
               w-full h-full 
-              sm:w-1 md:w-40 lg:w-72 
+              sm:w-1 md:w-42 lg:w-72 
               object-contain
 
             "
@@ -36,12 +36,12 @@ const Navbar = () => {
         </div>
 
         {/* Links */}
-        <div className="links ">
+        <div className="links lg:w-[72] ">
           <ul
             className=" 
-              text-[#B0B5B2] flex pl-13 
-              gap-4  pr-12 sm:gap-6 md:gap-8 
-              text-[15px] sm:text-[14px] md:text-[15px] 
+              text-[#B0B5B2] flex pl-13  
+              gap-4  pr-12 sm:gap-6 md:gap-4 md:container   
+              text-[15px] sm:text-[14px] md:text-[17px] lg:text-[14px] 
             "
           >
             <li className="hover:text-white cursor-pointer transition-all">

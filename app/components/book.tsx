@@ -47,8 +47,9 @@ const materials = [
 ];
 
 const JeeStudyMaterial = () => {
-  return (
-    <div className="flex items-center justify-center min-h-screen px-4 lg:pl-54 lg:pb-28 ">
+  return ( 
+    <div className="flex items-center justify-center min-h-screen md:min-h-0 md:pb-24 px-4 lg:pl-54 lg:pb-28 md:pt-3 md:pl-46
+     ">
       <div className="w-full max-w-2xl text-[#F7F7F7] ">
         {/* Title */}
         <h1 className="text-3xl sm:text-3xl font-bold mb-10 text-center sm:text-left pt-12 lg:text-3xl

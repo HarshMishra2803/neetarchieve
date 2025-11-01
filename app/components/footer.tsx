@@ -4,7 +4,8 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-[#1A1C1A] text-gray-300 pb-56 ">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-12 ">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-12  md:pl-40
+      ">
         {/* LEFT SIDE */}
         <div className="flex flex-col items-start md:w-1/3 space-y-4 text-sm [@media(max-width:320px)]:text-[10px]">
           <Image
@@ -20,7 +21,7 @@ export default function Footer() {
   "
             priority
           />
-          <div className="lg:pl-20">
+          <div className="lg:pl-20   md:pl-17">
             <p className="text-sm text-gray-400">
               © 2025 Neetarchive. All rights reserved.
             </p>
