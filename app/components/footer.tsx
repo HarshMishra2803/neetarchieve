@@ -21,7 +21,7 @@ export default function Footer() {
   "
             priority
           />
-          <div className="lg:pl-20   md:pl-17">
+          <div className="lg:pl-20   md:pl-22">
             <p className="text-sm text-gray-400">
               © 2025 Neetarchive. All rights reserved.
             </p>

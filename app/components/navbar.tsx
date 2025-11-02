@@ -27,7 +27,7 @@ const Navbar = () => {
             height={400}
             className="
               w-full h-full 
-              sm:w-1 md:w-42 lg:w-72 
+              sm:w-2 md:w-42 lg:w-72 
               object-contain
 
             "
