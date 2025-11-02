@@ -48,12 +48,12 @@ const materials = [
 
 const JeeStudyMaterial = () => {
   return ( 
-    <div className="flex items-center justify-center min-h-screen md:min-h-0 md:pb-24 px-4 lg:pl-54 lg:pb-28 md:pt-3 md:pl-46
+    <div className="flex items-center justify-center min-h-screen md:min-h-0 md:pb-24 px-4 lg:pl-70 lg:pb-28 md:pt-3 md:pl-46
      ">
       <div className="w-full max-w-2xl text-[#F7F7F7] ">
         {/* Title */}
-        <h1 className="text-3xl sm:text-3xl font-bold mb-10 text-center sm:text-left pt-12 lg:text-3xl
-         lgL:pt-0">
+        <h1 className="text-3xl sm:text-3xl font-bold mb-10 text-center sm:text-left pt-12 lg:text-3xl pr-9
+         lg:pl-2">
           NEET Study Material
         </h1>
 
@@ -64,7 +64,7 @@ const JeeStudyMaterial = () => {
               key={index}
               className="flex flex-col sm:flex-row sm:items-start justify-between py-6"
             >
-              <div className="sm:max-w-[80%]">
+              <div className="sm:max-w-[80%] pl-2  ">
                 <Link
                   href={item.link}
                   className="font-semibold text-[17px] sm:text-[18px] underline cursor-pointer hover:text-gray-300 transition-colors"
@@ -75,7 +75,7 @@ const JeeStudyMaterial = () => {
                   {item.desc}
                 </p>
               </div>
-              <p className="text-xs sm:text-sm text-gray-400 mt-2 sm:mt-0 sm:text-right">
+              <p className="text-xs sm:text-sm text-gray-400 mt-2 sm:mt-0 sm:text-right pl-2">
                 {item.date}
               </p>
             </div>

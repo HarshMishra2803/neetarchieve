@@ -9,7 +9,7 @@ const Page = () => {
   return (
     <>
     <div
-      className={`flex flex-col md:flex-row items-start justify-between mx-auto max-w-6xl px-6 py-10 min-h-[80vh] lg:pl-24 md:gap-8 md:pr-11 md:pt-8 md:min-h-0
+      className={`flex flex-col md:flex-row items-start justify-between mx-auto max-w-6xl px-6 py-10 min-h-[80vh] lg:pl-15 md:gap-8 md:pr-11 md:pt-8 md:min-h-0
         md:mr-32
          ${roboto.className}`}
     >
