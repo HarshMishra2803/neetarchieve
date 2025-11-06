@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="bar w-full bg-[#B2A3FF] h-9 flex items-center justify-center text-black font-semibold 
      lg:h-9
     ">
-        Welcome to Neet-Archive!!
+        Welcome to Neet-Archive!!!
     </div>
 
       <nav
